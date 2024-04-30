@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hari Food card</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+
+            <a href="#" class="logo">
+                <ion-icon name="fast-food"></ion-icon>
+                Hari Food card
+            </a>
+
+            <div class="box">
+                <div class="cart-count">0</div>
+                <ion-icon name="cart" id="cart-icon"></ion-icon>
+            </div>
+
+            <div class="cart">
+                <div class="cart-title">Cart Items</div>
+                <div class="cart-content">
+                    <!--
+          <div class="cart-box">
+            <img src="images/97.jpg" class="cart-img">
+            <div class="detail-box">
+              <div class="cart-food-title">Special Dosai</div>
+              <div class="price-box">
+                <div class="cart-price">Rs.72</div>
+                 <div class="cart-amt">Rs.72</div>
+             </div>
+              <input type="number" value="1" class="cart-quantity">
+            </div>
+            <ion-icon name="trash" class="cart-remove"></ion-icon>
+          </div>
+
+          <div class="cart-box">
+            <img src="images/97.jpg" class="cart-img">
+            <div class="detail-box">
+              <div class="cart-food-title">Special Dosai</div>
+              <div class="price-box">
+                <div class="cart-price">Rs.72</div>
+                 <div class="cart-amt">Rs.72</div>
+             </div>
+              <input type="number" value="1" class="cart-quantity">
+            </div>
+            <ion-icon name="trash" class="cart-remove"></ion-icon>
+          </div>
+        -->
+                </div>
+
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">Rs.0</div>
+                </div>
+
+                <button class="btn-buy">Place Order</button>
+
+                <ion-icon name="close" id="cart-close"></ion-icon>
+
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <h2 class="title">NON VEG</h2>
+        <div class="shop-content">
+
+            <div class="food-box">
+                <div class="pic"><img src="Biriyani.jpg" class="food-img"></div>
+                <h2 class="food-title">Biryani</h2>
+                <span class="food-price">Rs.140</span>
+                <ion-icon name="cart" class="add-cart"></ion-icon>
+            </div>
+
+            <div class="food-box">
+                <div class="pic"><img src="Hydrabadi chicken Biriyani.jpg" class="food-img"></div>
+                <h2 class="food-title">Hydrabadi chicken Biriyani</h2>
+                <span class="food-price">Rs.220</span>
+                <ion-icon name="cart" class="add-cart"></ion-icon>
+            </div>
+
+            <div class="food-box">
+                <div class="pic"><img src="Hydrabadi Mutton Biriyani.jpg" class="food-img"></div>
+                <h2 class="food-title">Hydrabadi mutton Biriyani</h2>
+                <span class="food-price">Rs.310</span>
+                <ion-icon name="cart" class="add-cart"></ion-icon>
+            </div>
+
+            <div class="food-box">
+                <div class="pic"><img src="Prawn Biriyani.jpg" class="food-img"></div>
+                <h2 class="food-title">Prawn Biriyani</h2>
+                <span class="food-price">Rs.190</span>
+                <ion-icon name="cart" class="add-cart"></ion-icon>
+            </div>
+
+            <div class="food-box">
+                <div class="pic"><img src="Fish Biriyani.jpg" class="food-img"></div>
+                <h2 class="food-title">Fish Biriyani</h2>
+                <span class="food-price">Rs.250</span>
+                <ion-icon name="cart" class="add-cart"></ion-icon>
+            </div>
+
+            <div class="food-box">
+                <div class="pic"><img src="Dragon chicken.jpg" class="food-img"></div>
+                <h2 class="food-title">Dragon chicken</h2>
+                <span class="food-price">Rs.320</span>
+                <ion-icon name="cart" class="add-cart"></ion-icon>
+            </div>
+
+            <div class="food-box">
+                <div class="pic"><img src="White chicken Kurma.jpg" class="food-img"></div>
+                <h2 class="food-title">White chicken Kurma</h2>
+                <span class="food-price">Rs.190</span>
+                <ion-icon name="cart" class="add-cart"></ion-icon>
+            </div>
+
+
+            <div class="food-box">
+                <div class="pic"><img src="Pepper chicken.jpg" class="food-img"></div>
+                <h2 class="food-title">Pepper chicken</h2>
+                <span class="food-price">Rs.290</span>
+                <ion-icon name="cart" class="add-cart"></ion-icon>
+            </div>
+
+            <div class="food-box">
+                <div class="pic"><img src="Chicken palayam.jpg" class="food-img"></div>
+                <h2 class="food-title">Chicken pallipalayam</h2>
+                <span class="food-price">Rs.250</span>
+                <ion-icon name="cart" class="add-cart"></ion-icon>
+            </div>
+
+            <div class="food-box">
+                <div class="pic"><img src="chicken chettinad.jpg" class="food-img"></div>
+                <h2 class="food-title">chicken chettinad</h2>
+                <span class="food-price">Rs.250</span>
+                <ion-icon name="cart" class="add-cart"></ion-icon>
+            </div>
+
+            <div class="food-box">
+                <div class="pic"><img src="chichen manchurian.jpg" class="food-img"></div>
+                <h2 class="food-title">chichen manchurian</h2>
+                <span class="food-price">Rs.150</span>
+                <ion-icon name="cart" class="add-cart"></ion-icon>
+            </div>
+
+
+
+            <div class="food-box">
+                <div class="pic"><img src="Kadai Fry.jpg" class="food-img"></div>
+                <h2 class="food-title">Kadai Fry</h2>
+                <span class="food-price">Rs.150</span>
+                <ion-icon name="cart" class="add-cart"></ion-icon>
+            </div>
+
+            <div class="food-box">
+                <div class="pic">
+                    <img src="Chicken 65.jpg" class="food-img">
+                </div>
+                <h2 class="food-title">chicken 65</h2>
+                <span class="food-price">Rs.110</span>
+                <ion-icon name="cart" class="add-cart"></ion-icon>
+            </div>
+
+            <div class="food-box">
+                <div class="pic">
+                    <img src="Chicken legs.jpg" class="food-img">
+                </div>
+                <h2 class="food-title">chicken legs</h2>
+                <span class="food-price">Rs.110</span>
+                <ion-icon name="cart" class="add-cart"></ion-icon>
+            </div>
+
+
+            <div class="food-box">
+                <div class="pic"><img src="chicken lallipop.jpg" class="food-img"></div>
+                <h2 class="food-title">chicken lollipop</h2>
+                <span class="food-price">Rs.110</span>
+                <ion-icon name="cart" class="add-cart"></ion-icon>
+            </div>
+
+            <div class="food-box">
+                <div class="pic"><img src="grill chicken.jpg" class="food-img"></div>
+                <h2 class="food-title">Grill chicken</h2>
+                <span class="food-price">Rs.350</span>
+                <ion-icon name="cart" class="add-cart"></ion-icon>
+            </div>
+
+            <div class="food-box">
+                <div class="pic"><img src="chicken butter masala.jpg" class="food-img"></div>
+                <h2 class="food-title">chicken butter masala</h2>
+                <span class="food-price">Rs.200</span>
+                <ion-icon name="cart" class="add-cart"></ion-icon>
+            </div>
+
+            <div class="food-box">
+                <div class="pic"><img src="naan (1-set).jpg" class="food-img"></div>
+                <h2 class="food-title">naan (1-set)</h2>
+                <span class="food-price">Rs.40</span>
+                <ion-icon name="cart" class="add-cart"></ion-icon>
+            </div>
+
+            <div class="food-box">
+                <div class="pic">
+                    <img src="Bread-Halwa.jpg" class="food-img"></div>
+                <h2 class="food-title">bread halwa</h2>
+                <span class="food-price">Rs.50</span>
+                <ion-icon name="cart" class="add-cart"></ion-icon>
+            </div>
+
+            <div class="food-box">
+                <div class="pic"><img src="Egg Parotta.jpg" class="food-img"></div>
+                <h2 class="food-title">Egg Parotta</h2>
+                <span class="food-price">Rs.40</span>
+                <ion-icon name="cart" class="add-cart"></ion-icon>
+            </div>
+
+            <div class="food-box">
+                <div class="pic"><img src="Egg Roast.jpg" class="food-img"></div>
+                <h2 class="food-title">Egg Roast</h2>
+                <span class="food-price">Rs.40</span>
+                <ion-icon name="cart" class="add-cart"></ion-icon>
+            </div>
+
+            <div class="food-box">
+                <div class="pic"><img src="Plain Omelette.jpg" class="food-img"></div>
+                <h2 class="food-title">plain Omelette</h2>
+                <span class="food-price">Rs.25</span>
+                <ion-icon name="cart" class="add-cart"></ion-icon>
+            </div>
+
+
+            <div class="food-box">
+                <div class="pic"><img src="Egg Veechu.jpg" class="food-img"></div>
+                <h2 class="food-title">Egg Veechu</h2>
+                <span class="food-price">Rs.40</span>
+                <ion-icon name="cart" class="add-cart"></ion-icon>
+            </div>
+
+
+            <div class="food-box">
+                <div class="pic"><img src="bisileri water bottle.jpg" class="food-img"></div>
+                <h2 class="food-title">bislary water bottle</h2>
+                <span class="food-price">Rs.20</span>
+                <ion-icon name="cart" class="add-cart"></ion-icon>
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
